@@ -1,6 +1,6 @@
 # Vesting Contract Dapp
 
-This Solidity program is a full stack "Vesting contract" program that implements the factory contract model to allow individuals create a vesting contracts it has a frontend fully integrated with smart contracts
+This Solidity program is a full stack "Vesting contract" program that implements the factory contract model to allow individuals create a vesting contracts it has a frontend fully integrated with smart contracts.
 
 ## Description
 
