@@ -148,9 +148,8 @@ function App() {
               <button
                 disabled={creatingWallet}
                 onClick={() => createWallet()}
-                className={`${
-                  creatingWallet && "hover:cursor-not-allowed text-white"
-                } btn btn-md w-24 md:w-auto text-white bg-[#7F56D9] `}
+                className={`${creatingWallet && "hover:cursor-not-allowed text-white"
+                  } btn btn-md w-24 md:w-auto text-white bg-[#7F56D9] `}
               >
                 {creatingWallet && (
                   <span className="loading loading-spinner loading-sm text-white"></span>
@@ -194,7 +193,7 @@ function App() {
 
       {childContract == null && (
         <span className="w-full block text-center mt-3 text-lg font-bold">
-          Seamlessly Create Your Smart Wallet by Connecting Your Wallet
+          Smart Wallet Connecting the world transactions. Create one today!
         </span>
       )}
 
@@ -245,9 +244,8 @@ function App() {
             <button
               disabled={transferState}
               onClick={() => transferFund()}
-              className={`${
-                transferState && "hover:cursor-not-allowed text-white"
-              } btn btn-md w-24 md:w-auto text-white`}
+              className={`${transferState && "hover:cursor-not-allowed text-white"
+                } btn btn-md w-24 md:w-auto text-white`}
             >
               {transferState && (
                 <span className="loading loading-spinner loading-sm text-white"></span>
@@ -286,9 +284,8 @@ function App() {
             <button
               disabled={depositState}
               onClick={() => depositFund()}
-              className={`${
-                depositState && "hover:cursor-not-allowed text-white"
-              } btn btn-md w-24 md:w-auto text-white`}
+              className={`${depositState && "hover:cursor-not-allowed text-white"
+                } btn btn-md w-24 md:w-auto text-white`}
             >
               {depositState && (
                 <span className="loading loading-spinner loading-sm text-white"></span>
