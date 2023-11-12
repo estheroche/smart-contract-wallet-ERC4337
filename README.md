@@ -7,7 +7,7 @@ This project uses `ERC4337` standard to create Smart wallet for a user and also 
 - [Smart contract Wallet Account Abstraction (ERC4337)](#smart-contract-wallet-account-abstraction-erc4337)
   - [Table of Contents](#table-of-contents)
   - [Overview-Description](#overview-description)
-  - [Demo Video](#demo-video)
+  - [Walk-Through Video](#walk-through-video)
   - [Deploying and Verifying the Contracts on Sepolia testnet](#deploying-and-verifying-the-contracts-on-sepolia-testnet)
   - [Frontend UI](#frontend-ui)
   - [Authors](#authors)
@@ -20,9 +20,8 @@ The factory contract deploys instances of the child contract to create wallet fo
 
 The `Smart Wallet Dapp`, allows you to create smart wallets. It has a factory contract that spurns smart wallets for users. This smart wallet is tie to a user EOA, thus a user can deposit funds into it, send out funds to any wallet as well as view the user's balance.
 
-## Demo Video
-
-https://www.loom.com/share/304e34d323594fed869f7c47cda40365?sid=0dd8754d-db97-4f90-b00a-d3b3ee94802d
+## Walk-Through Video
+https://www.loom.com/share/bba2004b999a46e3a0962deaf1a771ec?sid=a8731eba-863c-4e3a-9069-edd1ad3ea898
 
 ## Deploying and Verifying the Contracts on Sepolia testnet
 
@@ -47,9 +46,9 @@ https://www.loom.com/share/304e34d323594fed869f7c47cda40365?sid=0dd8754d-db97-4f
 - ![07](./images/07.png)
 
 ## Authors
+[@metacraftersio]()
 
-Marcellus Ifeanyi
-[@metacraftersio](https://twitter.com/Mars_Energy)
+[Oche Esther](https://twitter.com/Estheroche1)
 
 ## License
 

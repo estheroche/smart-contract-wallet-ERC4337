@@ -193,7 +193,7 @@ function App() {
 
       {childContract == null && (
         <span className="w-full block text-center mt-3 text-lg font-bold">
-          Smart Wallet Connecting the world transactions. Create one today!
+          Seamlessly Create Your Smart Wallet by Connecting Your Wallet
         </span>
       )}
 
